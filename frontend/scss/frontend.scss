@@ -1,0 +1,119 @@
+.backgroundColor {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: -2;
+  background: {
+    color: #353b48;
+  }
+}
+
+.checkOK::after {
+  position: absolute;
+  left: -70px;
+  top: -5px;
+  content: "\f14a";
+  font-family: "Font Awesome 5 Free";
+  display: block;
+  color: #fff;
+  font: {
+    size: 50px;
+  }
+}
+
+.wrap {
+  > h1 {
+    text-align: center;
+    color: #fff;
+    cursor: default;
+    font: {
+      size: 40px;
+    }
+  }
+}
+
+.title {
+  padding: {
+    bottom: 20px;
+  }
+  border: {
+    bottom: 1px solid #badc58;
+  }
+  .clickData {
+    cursor: pointer;
+    position: relative;
+  }
+  .sTitle {
+    color: #fff;
+    border: {
+      radius: 3px;
+    }
+    font: {
+      size: 20px;
+    }
+    box-shadow: 1px 1px 1px 1px rgba(#badc58, 0.897), 2px 2px 3px 3px rgba(#6ab04c, 0.801);
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px auto;
+  }
+    .ssTitle {
+      display: inline-block;
+      text-align: center;
+      position: relative;
+      width: 400px;
+      height: 45px;
+      line-height: 45px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #fff;
+      > span {
+        display: block;
+      }
+    }
+    
+  .thisDocu {
+    border: 2px solid #f0932b;
+    color: #ffbe76;
+    padding: 15px;
+    display: block;
+    margin: 10px 20%;
+    text-align: center;
+    font: {
+      size: 20.5px;
+    }
+  }
+}
+
+.dataWrap {
+  > div {
+    display:block;
+    text-align: center;
+    background: {
+      color: #f9ca24;
+    }
+    width: 300px;
+    margin: 20px auto;
+    cursor: pointer;
+    font: {
+      size: 22px;
+    }
+    > span {
+      display: block;
+      text-align: center;
+      padding: 15px 0;
+    }
+    > div {
+      padding:0;
+      margin: 5px 0;
+      border: {
+        top: 1px solid #6ab04c;
+        bottom: 1px solid #6ab04c;
+      }
+      > span {
+        padding: 10px 0;
+        display:block;
+      }
+    }
+  }
+}
