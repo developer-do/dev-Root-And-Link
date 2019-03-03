@@ -1,6 +1,9 @@
+
+
+
 <h1>Front-End 개발자 Root</h1>
   <article id="rootWrap">
-
+  
     <div id="html" class="title">
       <h1 class="sTitle">HTML</h1>
       <div class="dataWrap">
@@ -273,6 +276,4 @@
       <p><a href="../backend/backend.php">계속 탐색하세요.(Back-End 개발자 Root)</a></p>
     </div>
 
-
-      
   </article>

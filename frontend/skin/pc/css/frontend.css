@@ -4,6 +4,10 @@
 
 .wrap > h1 { text-align: center; color: #fff; cursor: default; font-size: 40px; }
 
+.popup { position: fixed; top: 0; left: 0; z-index: 9999; background-color: rgba(25, 25, 25, 0.8); color: #fff; }
+
+.popupWrap { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
 .title { padding-bottom: 20px; border-bottom: 1px solid #badc58; }
 .title .clickData { cursor: pointer; position: relative; }
 .title .sTitle { color: #fff; border-radius: 3px; font-size: 20px; box-shadow: 1px 1px 1px 1px rgba(186, 220, 88, 0.897), 2px 2px 3px 3px rgba(106, 176, 76, 0.801); width: 200px; text-align: center; padding: 15px; margin: 20px auto; }
